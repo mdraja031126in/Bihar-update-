@@ -1,0 +1,7 @@
+{
+  "name": "UPDATE BIHAR - Bihar Education News Portal",
+  "description": "बिहार बोर्ड, मैट्रिक, इंटर, परीक्षा, रिजल्ट, एडमिट कार्ड, छात्रवृत्ति और शिक्षा समाचार का सबसे विश्वसनीय स्वतंत्र द्विभाषी पोर्टल।",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

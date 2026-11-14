@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="UPDATE BIHAR - Bihar Board, education, exam, result, admit card and scholarship updates.">
+  <meta name="theme-color" content="#123b7a">
+  <title>UPDATE BIHAR | Bihar Education News</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="topline"><span>बिहार की शिक्षा से जुड़ी ताज़ा जानकारी</span><span id="today"></span></div>
+  <div class="header-main wrap">
+    <a class="brand" href="#"><span class="brand-mark">UB</span><span><b>UPDATE BIHAR</b><small>BIHAR EDUCATION & NEWS</small></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button>
+    <nav id="mainNav">
+      <a href="#home">Home</a><a href="#latest">Latest News</a><a href="#categories">Categories</a>
+      <a href="#about">About</a><a href="#contact">Contact</a>
+    </nav>
+    <button class="admin-link" id="adminOpen">Admin Login</button>
+  </div>
+  <div class="ticker"><b>BREAKING</b><div><span id="tickerText">महत्वपूर्ण अपडेट के लिए UPDATE BIHAR देखते रहें।</span></div></div>
+</header>
+
+<main id="home" class="wrap">
+  <section class="hero">
+    <div><p class="eyebrow">BIHAR EDUCATION UPDATE</p><h1>बिहार की हर जरूरी खबर,<br><em>सबसे पहले और भरोसे के साथ।</em></h1>
+      <p class="hero-copy">Bihar Board, Result, Admit Card, Exam, Scholarship और Education News की जानकारी एक ही जगह।</p>
+      <a class="primary-btn" href="#latest">ताज़ा खबरें देखें <span>→</span></a>
+    </div>
+    <div class="hero-art" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="book">📚</div><div class="hero-chip chip-a">BSEB</div><div class="hero-chip chip-b">2026–27</div><div class="hero-chip chip-c">NEWS</div></div>
+  </section>
+
+  <section class="quick-grid" id="categories">
+    <button class="quick-card" data-category="Bihar Board"><span>🏫</span><b>Bihar Board</b><small>बोर्ड अपडेट</small></button>
+    <button class="quick-card" data-category="Result"><span>📊</span><b>Result</b><small>रिजल्ट जानकारी</small></button>
+    <button class="quick-card" data-category="Admit Card"><span>🎫</span><b>Admit Card</b><small>प्रवेश पत्र</small></button>
+    <button class="quick-card" data-category="Exam"><span>📝</span><b>Exam</b><small>परीक्षा अपडेट</small></button>
+    <button class="quick-card" data-category="Scholarship"><span>🎓</span><b>Scholarship</b><small>छात्रवृत्ति</small></button>
+    <button class="quick-card" data-category="Jobs"><span>💼</span><b>Jobs</b><small>नौकरी अपडेट</small></button>
+  </section>
+
+  <section class="section-head" id="latest"><div><p class="eyebrow">WHAT'S NEW</p><h2>Latest Updates <span>/ ताज़ा खबरें</span></h2></div><div class="filters"><input id="searchInput" type="search" placeholder="खबर खोजें..."><select id="categoryFilter"><option value="">सभी कैटेगरी</option></select></div></section>
+  <div class="news-layout"><div id="newsGrid" class="news-grid"><div class="empty-state">खबरें लोड हो रही हैं...</div></div><aside class="sidebar"><div class="side-card"><h3>Trending Topics</h3><div id="trendingList"><p>अभी कोई ट्रेंडिंग खबर नहीं।</p></div></div><div class="side-card notice"><h3>महत्वपूर्ण सूचना</h3><p>किसी भी परीक्षा या रिजल्ट की अंतिम पुष्टि संबंधित आधिकारिक वेबसाइट/नोटिस से जरूर करें।</p><a href="https://biharboardonline.bihar.gov.in/" target="_blank" rel="noopener">BSEB Official Website ↗</a></div></aside></div>
+
+  <section class="about-section" id="about"><p class="eyebrow">ABOUT US</p><h2>UPDATE BIHAR के बारे में</h2><p>UPDATE BIHAR एक स्वतंत्र सूचना पोर्टल है। यहाँ बिहार बोर्ड, शिक्षा, परीक्षा, रिजल्ट, एडमिट कार्ड और छात्रवृत्ति से जुड़ी उपयोगी जानकारी प्रकाशित की जाएगी। यह वेबसाइट बिहार विद्यालय परीक्षा समिति की आधिकारिक वेबसाइट नहीं है।</p></section>
+  <section class="contact-section" id="contact"><div><p class="eyebrow">GET IN TOUCH</p><h2>Contact Us</h2><p>सुझाव, सुधार या खबर से संबंधित जानकारी के लिए संपर्क करें।</p></div><a class="primary-btn" href="mailto:contact@updatebihar.example">Email Us →</a></section>
+</main>
+<footer><div class="wrap footer-inner"><a class="brand footer-brand" href="#"><span class="brand-mark">UB</span><span><b>UPDATE BIHAR</b><small>BIHAR EDUCATION & NEWS</small></span></a><p>© <span id="year"></span> UPDATE BIHAR. All rights reserved.</p><div><a href="#about">About</a><a href="#contact">Contact</a><a href="privacy.html">Privacy</a><a href="disclaimer.html">Disclaimer</a></div></div></footer>
+
+<div class="modal-backdrop" id="adminModal" hidden>
+  <section class="admin-modal" role="dialog" aria-modal="true" aria-labelledby="adminTitle">
+    <button class="close-modal" id="closeAdmin" aria-label="Close">×</button>
+    <div id="loginPanel"><p class="eyebrow">SECURE ADMIN AREA</p><h2 id="adminTitle">Admin Login</h2><p class="muted">केवल अधिकृत एडमिन लॉगिन कर सकता है।</p>
+      <form id="loginForm"><label>Email<input type="email" id="adminEmail" required autocomplete="username"></label><label>Password<input type="password" id="adminPassword" required autocomplete="current-password"></label><button class="primary-btn full" type="submit">Login</button><p id="loginMessage" class="form-message"></p></form>
+    </div>
+    <div id="dashboardPanel" hidden>
+      <div class="dashboard-top"><div><p class="eyebrow">CONTROL CENTER</p><h2>Admin Dashboard</h2></div><button class="outline-btn" id="logoutBtn">Logout</button></div>
+      <div class="dashboard-tabs"><button class="tab active" data-tab="editor">✚ नई खबर</button><button class="tab" data-tab="manage">☷ खबरें मैनेज करें</button><button class="tab" data-tab="settings">⚙ सेटिंग्स</button></div>
+      <div id="editorTab" class="tab-panel"><h3 id="editorHeading">नई खबर प्रकाशित करें</h3><form id="newsForm" class="news-form">
+        <input type="hidden" id="newsId"><label>खबर का शीर्षक / Title<input id="newsTitle" required maxlength="160" placeholder="खबर का स्पष्ट शीर्षक"></label>
+        <div class="form-row"><label>Category<select id="newsCategory" required><option>Bihar Board</option><option>Result</option><option>Admit Card</option><option>Exam</option><option>Scholarship</option><option>Jobs</option><option>Education</option><option>News</option></select></label><label>स्थिति<select id="newsStatus"><option value="published">Published</option><option value="draft">Draft</option></select></label></div>
+        <label>Short Description<textarea id="newsSummary" rows="2" maxlength="260" required placeholder="खबर का छोटा परिचय"></textarea></label>
+        <label>पूरी खबर / Full Article<textarea id="newsBody" rows="7" required placeholder="पूरी जानकारी लिखें..."></textarea></label>
+        <label>Image URL (वैकल्पिक)<input type="url" id="newsImage" placeholder="https://..."></label>
+        <label>Official Source URL (वैकल्पिक)<input type="url" id="newsSource" placeholder="https://official-website.gov.in/..."></label>
+        <label class="check-label"><input type="checkbox" id="newsFeatured"> इस खबर को Featured / महत्वपूर्ण बनाएं</label>
+        <div class="form-actions"><button class="primary-btn" type="submit">Save News</button><button class="outline-btn" type="button" id="resetNews">Clear</button><span id="saveMessage" class="form-message"></span></div>
+      </form></div>
+      <div id="manageTab" class="tab-panel" hidden><h3>Published & Draft News</h3><div id="adminNewsList" class="admin-news-list"></div></div>
+      <div id="settingsTab" class="tab-panel" hidden><h3>Website Settings</h3><form id="settingsForm" class="news-form"><label>Website Name<input id="settingName" value="UPDATE BIHAR"></label><label>Tagline<input id="settingTagline" value="BIHAR EDUCATION & NEWS"></label><label>Breaking News Ticker<input id="settingTicker" value="महत्वपूर्ण अपडेट के लिए UPDATE BIHAR देखते रहें।"></label><label>Contact Email<input id="settingEmail" type="email" placeholder="your-email@example.com"></label><button class="primary-btn" type="submit">Save Settings</button><p class="muted small">ये सेटिंग्स वेबसाइट के डेटाबेस में सेव होंगी। लोगो/रंग बदलने के लिए style.css में बदलाव करना होगा।</p></form></div>
+      <p class="security-note">सुरक्षा: Supabase में Row Level Security चालू रखें। Admin credentials किसी के साथ साझा न करें।</p>
+    </div>
+  </section>
+</div>
+<div class="toast" id="toast" role="status"></div>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="config.js"></script><script src="app.js"></script>
+</body></html>

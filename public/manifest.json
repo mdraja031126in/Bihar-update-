@@ -1,0 +1,55 @@
+{
+  "id": "/",
+  "name": "UPDATE BIHAR - Education News",
+  "short_name": "UpdateBihar",
+  "description": "बिहार बोर्ड, मैट्रिक, इंटर, परीक्षा, रिजल्ट, एडमिट कार्ड और छात्रवृत्ति का विश्वसनीय द्विभाषी शिक्षा पोर्टल।",
+  "start_url": "/?source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#0B1B3D",
+  "background_color": "#0B1B3D",
+  "categories": ["news", "education"],
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "बिहार बोर्ड समाचार",
+      "short_name": "BSEB News",
+      "description": "मैट्रिक व इंटर के ताजा अपडेट",
+      "url": "/?category=bseb",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "एडमिट कार्ड व रिजल्ट",
+      "short_name": "Results",
+      "description": "लाइव रिजल्ट और एडमिट कार्ड लिंक",
+      "url": "/?category=results",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192" }]
+    }
+  ]
+}
